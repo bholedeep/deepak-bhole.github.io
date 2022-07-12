@@ -21,10 +21,10 @@ function Home2() {
             <p className="home-about-body">
               I am a Tech enthusiast who likes to solve problems creatively. 
               <br />
-              <br />Always energetic and eager to learn.
+              <br />Always energetic, self-motivated and eager to learn.
               <i></i>
               <br />
-              <br />I aspire to be a part of the exciting XR Technology journey and want to
+              <br />I Have experience of working as a part of a team and individually. I aspire to be a part of the exciting XR Technology journey and want to
               implement this cool technology to make a change in the world in Smarter, Safer and Better way 👨‍💻
               <i></i>
               <br />
@@ -59,7 +59,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/deepak-bhole"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,7 +69,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/bholedeep07"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/deepak-bhole/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/b_deepak_07/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
