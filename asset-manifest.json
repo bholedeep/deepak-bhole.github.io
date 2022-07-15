@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b634b27c.css",
-    "main.js": "/static/js/main.9903f9a6.js",
+    "main.js": "/static/js/main.ef601f0b.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Argon_Assault.png": "/static/media/Argon_Assault.20070e86c90d294b9ed4.png",
@@ -13,17 +13,17 @@
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/AR_Tank_War.png": "/static/media/AR_Tank_War.e8478de104fcba1269a5.png",
-    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.2162263f446be18c551e.pdf",
+    "static/media/Deepak_Resume.pdf": "/static/media/Deepak_Resume.ef7d59f12fd9017bc0cc.pdf",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.b634b27c.css.map": "/static/css/main.b634b27c.css.map",
-    "main.9903f9a6.js.map": "/static/js/main.9903f9a6.js.map",
+    "main.ef601f0b.js.map": "/static/js/main.ef601f0b.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b634b27c.css",
-    "static/js/main.9903f9a6.js"
+    "static/js/main.ef601f0b.js"
   ]
 }
