@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import AR_car_racing from "../../Assets/Projects/AR_car_racing.png";
+import AR_Tank_War from "../../Assets/Projects/AR_Tank_War.png";
+import Realm_Rush from "../../Assets/Projects/Realm_Rush.png";
+import Jungle_Night from "../../Assets/Projects/Jungle_Night.png";
+import Business_Card from "../../Assets/Projects/Business_Card.jpg";
+import Argon_Assault from "../../Assets/Projects/Argon_Assault.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="blue">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,62 +23,79 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              imgPath={Jungle_Night}
+              isDone={true}
+              title="Jungle Night"
+                          description="Jungle Night is Zombie FPS, survival game for windows designed and programmed in Unity 3D. Applied concepts of Laws of Motion, Vectors, AI (NavMeshAgent) for enemy, Physics Raycast. Integrated third-party visual assets (Animation, 3D models, particle systems (VFX), lighting systems, SFX)."
+              link1="https://youtu.be/dO1MKQyglE0"
+              link2="https://github.com/deepak-bhole/Jungle-Night"
+
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              imgPath={Argon_Assault}
+              isDone={true}
+              title="Argon Assault"
+                          description="Argon Assault is Timeline based Spaceship shooting game. Designed UI, Camera Trail, enemy movement (animation) in timeline, used design tools like Terrains, Timelines, and also programmed player controller. Integrated third-party visual assets (Spaceships 3D models, particle systems (VFX), lighting systems, SFX)."
+              link1="https://youtu.be/dIMCwmCb96Y"
+              link2="https://github.com/deepak-bhole/Argon-Assault"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              imgPath={Realm_Rush}
+              isDone={true}
+              title="Realm Rush"
+                          description="Realm Rush is a tower defence game - we have defend our castle from enemy ram by placing defence tower (Ballista). Designed and programmed Grid Manager, Object pooling, Breadth first search pathfinding algorithm, Money manager(Bank)."
+              link1="https://youtu.be/isZQieiJcck"
+              link2="https://github.com/deepak-bhole/Realm-Rush_advance"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              imgPath={AR_car_racing}
+              isDone={true}
+              title="AR Racing Car"
+                          description="AR Racing Car is a Augmented reality flag collection game. Designed and programmed ARplacementReticle, Car controller, Game and mission Manager. Lightship ARDK SDK is used for collider meshing of the environment."
+              link1="https://youtu.be/52u_8_9jTbA"
+              link2="https://github.com/deepak-bhole/ARRacingCar"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              imgPath={Business_Card}
+              isDone={true}
+              title="AR Business Card"
+                          description="Business Card is a marker based AR application to Augment the extra information, Videos, link1s on top of the business card. Vuforia SDK is used for marker detection and Augmented UI UX is programmed and developed, in Unity 3D"
+              link1="https://youtu.be/lDbR89XnVeQ"
+              link2="https://github.com/deepak-bhole/My_Business_Card"
             />
           </Col>
+        </Row>
+      </Container>
 
+        <Container>
+        <h1 className="project-heading">
+          <strong className="blue">Working  </strong> on
+        </h1>
+        <p style={{ color: "white" }}>
+          Project I am working on.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              imgPath={AR_Tank_War}
+              isDone={false}
+              title="AR Tank War"
+                          description="AR Tank war will be the small multiplayer online and LAN vehicular combat game. It will be developed on Unity Netcode SDK and Lightship ARDK SDK. Features include PowerUp pickups, upgrade weapons, maps, Scoreboard.   Level categories - Flag capture, Deathmatch."
+              link1=""
+              link2=""
             />
           </Col>
         </Row>

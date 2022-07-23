@@ -44,7 +44,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV pdf version
+            &nbsp;Download Resume
           </Button>
               </Row>
 
