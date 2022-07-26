@@ -16,22 +16,27 @@ function AboutCard() {
             I have worked as an <b className="blue"> Design Engineer</b>  in Godrej and Boyce Ltd,
             there I was Responsible for Designing new engineering products and processes,
             crafting models and drawings of products using CAD software (PTC CREO, AutoCAD) and 
-            also for testing prototypes as well as identifying solutions for further Improvement.
-            I loved working with my team and all cross-functional teams as 
-            it was very exciting to know about what all functions and work needs to be done to launch a product. 
+                      also for testing prototypes as well as identifying solutions for further Improvement.
+                      <br />
+                      <br />
+            Currently,
+                      Exploring the exciting XR ( Augmented Reality | Virtual Reality | Mixed Reality) technology, Artificial Intelligence,
+                      and wish to contribute to this ecosystem by implementing these cool technologies to make a positive change and
+                      enhance the ever-beautiful world.
+                      <br />
+                      <br />
+            It is very appealing for me to work with cross-functional teams as 
+            it excites me to know about what all different skillsets and cross functions needed to develop these cool Technologies.
             <br />
-            That's why, after some serious self- reflection, I thought how exciting it will be to work on Technology with People of different Professions. So,
-            I have started looking into becoming XR Technology Developer.
             <br />
-            <br />
-            
             Apart from these, I love 
             <b className="blue"> Hiking</b> and
             <i>
               <b className="blue">
                 {" "}
                 Travelling,
-              </b> 
+                          </b> 
+                          <br />
             There is nothing  better than being outdoors with friends or family, in touch with nature, 
             sitting in front of a campfire and experiencing nature. 
             

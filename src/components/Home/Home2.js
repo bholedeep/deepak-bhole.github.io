@@ -24,13 +24,13 @@ function Home2() {
               <br />Always energetic, self-motivated and eager to learn.
               <i></i>
               <br />
-              <br />I Have experience of working as a part of a team and individually. I aspire to be a part of the exciting XR Technology journey and want to
-              implement this cool technology to make a change in the world in Smarter, Safer and Better way 👨‍💻
+              <br />I have experience of working as a part of a team and individually. I am exploring the exciting XR Technology and contributing to this new tech journey and wish
+              to make a positive change and enhance the ever-beautiful world👨‍💻
               <i></i>
               <br />
               <br />I am good in classics like
               <i>
-                <b className="blue"> C#, Unity 3D, Vuforia and Python. </b>
+                <b className="blue"> C#, Unity 3D and Python. </b>
               </i>
               <br />
               <br />
